@@ -87,7 +87,9 @@ These are optional. Either I can do them myself or let the users/maintainers do 
 * PyTorch training and inference.
 * Text and image preprocessing.
 * Numpy, Pillow.
-* Mypy, pytest, Sphinx.
+* Sphinx, reStructuredText.
+* Mypy, pytest, tox, Travis CI, codecov.
+* Git, virtualenv, pip.
 
 
 Thank you to my mentors [Konstatin](https://github.com/lopuhin) and [Mikhail](https://github.com/kmike). I hope this work proves useful!
