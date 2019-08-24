@@ -12,10 +12,12 @@ I have worked on adding support to explain image and text classifier predictions
 I have decided to exclude adding support for Tensorflow and non-classifier networks in this project.
 
 Example of an explanation for why a network classified this image as “dog”
-image here
-  
+
+![gradcam cat dog image heatmap overlay](images/gradcam-catdog.png?raw=true "Predicted class: dog. Explanation for prediction: highlighted area.")
+
 Example explanation for why a certain score was given by a sentiment analysis network
-image here
+
+![gradcam text heatmap over tokens](images/gradcam-text.png?raw=true "Predicted sentiment: low. Explanation for prediction: highlighted positive (green) and negative (red) words.")
   
 ## What is merged
 
@@ -41,7 +43,6 @@ Covered by this open pull request: https://github.com/TeamHG-Memex/eli5/pull/325
 Left to do
 * Complete some TODO items in source comments.
 * Reviewer feedback.
-
 
 ### Explaining PyTorch image and text models
 
@@ -81,11 +82,12 @@ These are optional. Either I can do them myself or let the users/maintainers do 
 * Later down the line: making changes that “break” a lot of things, i.e. need to update other code, tests, docs.
 
 ## Learnings
+* Grad-CAM as a gradient method for explanations.
 * Keras training and inference.
 * PyTorch training and inference.
 * Text and image preprocessing.
+* Numpy, Pillow.
 * Mypy, pytest, Sphinx.
-* Grad-CAM as a gradient method for explanations.
 
 
 Thank you to my mentors [Konstatin](https://github.com/lopuhin) and [Mikhail](https://github.com/kmike). I hope this work proves useful!
