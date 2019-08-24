@@ -80,6 +80,8 @@ These are optional. Either I can do them myself or let the users/maintainers do 
 ## Challenges
 * Usual coding stuff - working with Keras, numpy, Pillow, PyTorch.
 * Later down the line: making changes that “break” a lot of things, i.e. need to update other code, tests, docs.
+* Prioritizing what to work on. Working up to speed to get "features" done.
+* Finding hardware suitable for Machine Learning, i.e. using Kaggle kernels.
 
 ## Learnings
 * Grad-CAM as a gradient method for explanations.
@@ -90,6 +92,7 @@ These are optional. Either I can do them myself or let the users/maintainers do 
 * Sphinx, reStructuredText.
 * Mypy, pytest, tox, Travis CI, codecov.
 * Git, virtualenv, pip.
+* GitHub, Kaggle, Jupyter Notebook.
 
 
 Thank you to my mentors [Konstatin](https://github.com/lopuhin) and [Mikhail](https://github.com/kmike). I hope this work proves useful!
