@@ -81,6 +81,7 @@ These are optional. Either I can do them myself or let the users/maintainers do 
 * Usual coding stuff - working with Keras, numpy, Pillow, PyTorch.
 * Later down the line: making changes that “break” a lot of things, i.e. need to update other code, tests, docs.
 * Prioritizing what to work on. Working up to speed to get "features" done.
+* Estimating how long certain tasks will take.
 * Finding hardware suitable for Machine Learning, i.e. using Kaggle kernels.
 
 ## Learnings
