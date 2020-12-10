@@ -1,7 +1,7 @@
 # gsoc19-eli5-gradcam
 Google Summer of Code 2019 Work Product Submission for the ELI5 Grad-CAM project under Scrapy, Python Software Foundation.
 
-Hi! Welcome to the final report for the project titled “Grad-CAM Neural Network Explanations for ELI5” (https://summerofcode.withgoogle.com/projects/#5190417975345152).
+Hi! Welcome to the final report for the project titled “Grad-CAM Neural Network Explanations for ELI5” (https://summerofcode.withgoogle.com/archive/2019/projects/5066973807902720/).
 
 ## Summary
 
